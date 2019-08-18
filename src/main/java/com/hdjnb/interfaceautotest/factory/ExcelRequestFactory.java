@@ -4,7 +4,7 @@ import com.hdjnb.interfaceautotest.model.Request;
 
 public class ExcelRequestFactory implements RequestFactory {
     @Override
-    public Request buildRequest(String json) {
+    public Request getRequest(String json) {
         return null;
     }
 }
